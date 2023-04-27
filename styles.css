@@ -21,6 +21,7 @@
 
 .mainMenu a:hover, a:active{
     background-color: rgb(180, 30, 110);
+    transition-duration: 4ms;
 }
 
 body{
