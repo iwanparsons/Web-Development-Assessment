@@ -21,7 +21,7 @@
 
 .mainMenu a:hover, a:active{
     background-color: rgb(180, 30, 110);
-    transition-duration: 4ms;
+    transition-duration: 0.4s;
 }
 
 body{
@@ -42,13 +42,8 @@ body{
     padding: 2rem;
 
     display: grid;
-
     grid-template-columns: repeat(3, 1fr);
-
-    grid-template-rows: 1;
-
     column-gap: 5rem;
-
 }
 
 main{
@@ -57,7 +52,6 @@ main{
     
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1;
     column-gap: 5rem;
 }
 
@@ -71,7 +65,7 @@ main{
 
 .about:hover, .about:active{
     background-color: rgb(180, 30, 110);
-    transition-duration: 4ms;
+    transition-duration: 0.4s;
 }
 
 .mainCats{
@@ -80,8 +74,7 @@ main{
     padding: 2rem;
 
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1;
+    grid-template-columns: repeat(3, 1fr);   
     column-gap: 5rem;
 }
 
