@@ -84,3 +84,30 @@ main{
     grid-template-rows: 1;
     column-gap: 5rem;
 }
+
+.ftdPrdctHdr{
+    color: rgb(180, 30, 110);
+    text-align: center;
+    font-size:xx-large;
+}
+
+.ftdPrdct{
+    color: whitesmoke;
+    padding: 2rem;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 3rem;
+    row-gap: 2rem;
+}
+
+.ftdPrdct a{
+    text-decoration: none;
+    color: rgb(180, 30, 110);
+}
+
+.ftdPrdct a:hover{
+    color: whitesmoke;
+    transition-duration: 0.4s;
+}
