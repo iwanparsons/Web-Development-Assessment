@@ -78,6 +78,10 @@ main{
     column-gap: 5rem;
 }
 
+.cat img{
+    box-shadow: 0 8px 16px 0 rgba(190, 190, 190, 0.2), 0 6px 20px 0 rgba(190, 190, 190, 0.19);
+}
+
 .ftdPrdctHdr{
     color: rgb(180, 30, 110);
     text-align: center;
