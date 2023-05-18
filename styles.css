@@ -1,3 +1,10 @@
+:root{
+    --main-background: #181a1b;
+    --accent-colour: rgb(180, 30, 110);
+    --scndry-colour: #222;
+    --text-colour: whitesmoke;
+}
+
 .mainMenu ul{
     list-style-type: none;
     background-color: #333;
@@ -20,12 +27,12 @@
 }
 
 .mainMenu a:hover, a:active{
-    background-color: rgb(180, 30, 110);
+    background-color: var(--accent-colour);
     transition-duration: 0.4s;
 }
 
 body{
-    background-color: #181a1b;
+    background-color: var(--main-background);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
@@ -33,12 +40,12 @@ body{
 #homeImg{
     height: 500px;
     width: 100%;
-    background-color:rgb(180, 30, 110);
+    background-color: var(--accent-colour);
 }
 
 .blurb{
-    color: whitesmoke;
-    background-color: #222;
+    color: var(--text-colour);
+    background-color: var(--scndry-colour);
     padding: 2rem;
 
     display: grid;
@@ -47,7 +54,7 @@ body{
 }
 
 main{
-    color: whitesmoke;
+    color: var(--text-colour);
     padding: 2rem;
     
     display: grid;
@@ -59,18 +66,18 @@ main{
     padding: 14px 10px;
     color: white;
     text-decoration: none;
-    border: 2px solid rgb(180, 30, 110);
+    border: 2px solid var(--accent-colour);
     border-radius: 2px;
 }
 
 .about:hover, .about:active{
-    background-color: rgb(180, 30, 110);
+    background-color: var(--accent-colour);
     transition-duration: 0.4s;
 }
 
 .mainCats{
-    color: whitesmoke;
-    background-color: #222;
+    color: var(--text-colour);
+    background-color: var(--scndry-colour);
     padding: 2rem;
 
     display: grid;
@@ -83,13 +90,13 @@ main{
 }
 
 .ftdPrdctHdr{
-    color: rgb(180, 30, 110);
+    color: var(--accent-colour);
     text-align: center;
     font-size:xx-large;
 }
 
 .ftdPrdct{
-    color: whitesmoke;
+    color: var(--text-colour);
     padding: 2rem;
 
     display: grid;
@@ -101,10 +108,10 @@ main{
 
 .ftdPrdct a{
     text-decoration: none;
-    color: rgb(180, 30, 110);
+    color: var(--accent-colour);
 }
 
 .ftdPrdct a:hover{
-    color: whitesmoke;
+    color: var(--text-colour);
     transition-duration: 0.4s;
 }
