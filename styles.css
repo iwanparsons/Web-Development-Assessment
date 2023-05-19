@@ -53,7 +53,7 @@ body{
     column-gap: 5rem;
 }
 
-main{
+.homeMain{
     color: var(--text-colour);
     padding: 2rem;
     
@@ -114,4 +114,50 @@ main{
 .ftdPrdct a:hover{
     color: var(--text-colour);
     transition-duration: 0.4s;
+}
+
+.aboutMain{
+    color: var(--text-colour);
+    padding: 2rem;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.founder, .rd, .engnr{
+    color: var(--text-colour);
+    background-color: var(--scndry-colour);
+    padding: 2rem;
+    margin: 1rem;
+
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    flex-direction: row;
+    column-gap: 3rem;
+}
+
+.founder > img, .rd > img, .engnr > img{
+    width: 875px;
+}
+
+.founder > p, .rd > p, .engnr > p{
+    padding: 1rem;
+}
+
+.moreRD{
+    display: flex;
+    padding: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.aboutBlurb{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
 }
