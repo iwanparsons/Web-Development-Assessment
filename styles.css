@@ -174,9 +174,39 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    column-gap: 2rem;
+    row-gap: 3rem;
+    justify-items: center
+}
+
+.productItem{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #686868;
+    color: var(--scndry-colour);
+}
+
+.productItem:hover{
+    box-shadow: 10px 10px 10px #686868;
 }
 
 .productItem > a{
     text-decoration: none;
     color: var(--accent-colour);
+}
+
+.productItem > img{
+    margin: 10px;
+    height: 300px;
+    max-width: 300px;
+    background-color: white;
+    object-fit:scale-down;
+
 }
