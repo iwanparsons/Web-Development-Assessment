@@ -162,3 +162,21 @@ body{
     margin-right: 35%;
     text-align: center;
 }
+
+.productMain{
+    color: var(--text-colour);
+    padding: 2rem;
+
+   text-align: center;
+}
+
+.productList{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.productItem > a{
+    text-decoration: none;
+    color: var(--accent-colour);
+}
