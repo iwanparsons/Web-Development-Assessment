@@ -20,6 +20,15 @@
     padding: 14px 10px;
 }
 
+.logo{
+    text-decoration: none;
+    padding: 14px 10px;
+}
+
+.logo a:hover, a:active{
+    background-color: transparent;
+}
+
 .mainMenu a{
     padding: 14px 10px;
     color: white;
@@ -29,6 +38,14 @@
 .mainMenu a:hover, a:active{
     background-color: var(--accent-colour);
     transition-duration: 0.4s;
+}
+
+
+
+.mainMenu img{
+    object-fit: scale-down;
+    height: 24px;
+    width: 96px;
 }
 
 body{
@@ -106,7 +123,6 @@ body{
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
     column-gap: 3rem;
     row-gap: 2rem;
 }
@@ -119,6 +135,28 @@ body{
 .ftdPrdct a:hover{
     color: var(--text-colour);
     transition-duration: 0.4s;
+}
+
+.productImg{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #686868;
+    color: var(--scndry-colour);
+    align-items: center;
+}
+
+.productImg > img{
+    margin: 10px;
+    height: 300px;
+    max-width: 300px;
+    background-color: white;
+    object-fit:scale-down;
 }
 
 /* About Page Styling */
