@@ -20,15 +20,6 @@
     padding: 14px 10px;
 }
 
-.logo{
-    text-decoration: none;
-    padding: 14px 10px;
-}
-
-.logo a:hover, a:active{
-    background-color: transparent;
-}
-
 .mainMenu a{
     padding: 14px 10px;
     color: white;
@@ -40,7 +31,14 @@
     transition-duration: 0.4s;
 }
 
+.logo:hover, .logo:active{
+    background-color: transparent !important;
+}
 
+.logo{
+    text-decoration: none;
+    padding: 14px 10px;
+}
 
 .mainMenu img{
     object-fit: scale-down;
@@ -120,11 +118,11 @@ body{
 .ftdPrdct{
     color: var(--text-colour);
     padding: 2rem;
-
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 3rem;
     row-gap: 2rem;
+    justify-items: center;
 }
 
 .ftdPrdct a{
