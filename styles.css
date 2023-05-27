@@ -5,6 +5,8 @@
     --text-colour: whitesmoke;
 }
 
+/* Home Page Styling */
+/* Header Styling  10 - 49 */
 .mainMenu ul{
     list-style-type: none;
     background-color: #333;
@@ -109,6 +111,7 @@ body{
     box-shadow: 0 8px 16px 0 rgba(190, 190, 190, 0.2), 0 6px 20px 0 rgba(190, 190, 190, 0.19);
 }
 
+/* Featureed Product Styling 115 - 161 */
 .ftdPrdctHdr{
     color: var(--accent-colour);
     text-align: center;
@@ -204,6 +207,7 @@ body{
     text-align: center;
 }
 
+/* Product Page Styling */
 .productMain{
     color: var(--text-colour);
     padding: 2rem;
@@ -252,6 +256,7 @@ body{
 
 }
 
+/* Contact Page Styling */
 .contact{
     background-color: var(--scndry-colour);
     color: var(--text-colour);
