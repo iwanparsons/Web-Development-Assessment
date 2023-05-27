@@ -54,10 +54,10 @@ body{
     margin: 0;
 }
 
-#homeImg{
+.homeImg > img{
     height: 500px;
     width: 100%;
-    background-color: var(--accent-colour);
+    object-fit: cover;
 }
 
 .blurb{
@@ -105,6 +105,13 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);   
     column-gap: 5rem;
+}
+
+.cat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .cat img{
